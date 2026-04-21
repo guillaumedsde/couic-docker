@@ -1,4 +1,4 @@
-FROM scratch
+FROM busybox
 
 ARG COUIC_VERSION="1.0.2"
 
