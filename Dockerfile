@@ -20,6 +20,6 @@ ADD --chmod=0755 \
     https://github.com/FCSC-FR/couic/releases/download/v${COUIC_VERSION}/couic-report-static \
     /couicctl
 
-USER 1000
+USER nobody
 
 ENTRYPOINT ["/couic"]
